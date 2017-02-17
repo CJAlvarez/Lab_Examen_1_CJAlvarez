@@ -22,7 +22,7 @@ string Targaryen :: getEmblema(){
    return emblema;
 }
 
-void Targaryen :: setLema(string sLema){
+void Targaryen :: setLema(string slema){
    lema = slema;
 }
 string Targaryen :: getLema(){
@@ -37,7 +37,7 @@ int Targaryen :: getCantDragones() {
 }
 
 void Targaryen :: setEjercitoDothraki(string sejercito){
-   ejercitoDothraki = ejercito;
+   ejercitoDothraki = sejercito;
 }
 string Targaryen :: getEjercitoDothraki(){
    return ejercitoDothraki;

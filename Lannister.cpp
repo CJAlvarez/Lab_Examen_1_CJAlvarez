@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include "Lannister.h"
+
 using namespace std;
 
 Lannister :: Lannister(){
@@ -12,18 +13,18 @@ Lannister :: Lannister(){
 void Lannister :: setJefe(string sJefe) {
    jefe = sJefe;
 }
-string Lannister :: getJef() {
+string Lannister :: getJefe() {
    return jefe;
 }
 
-void Lannister Stark :: setEmblema(string emb){
+void Lannister :: setEmblema(string emb){
    emblema = emb;
 }
 string Lannister :: getEmblema(){
    return emblema;
 }
 
-void Lannister :: setLema(string sLema){
+void Lannister :: setLema(string slema){
    lema = slema;
 }
 string Lannister :: getLema(){
@@ -31,7 +32,7 @@ string Lannister :: getLema(){
 }
 
 void Lannister :: setEjercitoReal(string sejercito){
-   ejercitoReal = ejercito;
+   ejercitoReal = sejercito;
 }
 string Lannister :: getEjercitoReal(){
    return ejercitoReal;
@@ -47,7 +48,7 @@ int Lannister :: getCantDinero(){
 void Lannister :: setFuerzaMontana(double fuerza){
    fuerzaMontana = fuerza;
 }  
-int Lannister :: getFuerzaMonatana(){
+double Lannister :: getFuerzaMonatana(){
    return fuerzaMontana;
 }
 

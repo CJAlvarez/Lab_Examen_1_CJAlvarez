@@ -30,7 +30,7 @@ string Stark :: getEmblema(){
 	return emblema;
 }
 
-void Stark :: setLema(string sLema){
+void Stark :: setLema(string slema){
 	lema = slema;
 }
 string Stark :: getLema(){

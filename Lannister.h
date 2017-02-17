@@ -4,6 +4,7 @@
 #include <vector>
 #ifndef LANNISTER_N
 #define LANNISTER_H
+using namespace std;
 
 
 class Lannister{

@@ -5,6 +5,7 @@
 #ifndef STARK_H
 #define STARK_H
 
+using namespace std;
 
 class Stark{
 	private:
@@ -29,7 +30,7 @@ class Stark{
 		string getEmblema();
 		void setLema(string);
 		string getLema();
-		void setEjercitoFam();
+		void setEjercitoFam(string);
 		string getEjercitoFam();
 		void setGuerreroValioso(string);
 		string getGuerreroValioso();

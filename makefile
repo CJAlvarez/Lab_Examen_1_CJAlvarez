@@ -1,5 +1,5 @@
 main:	main.o Stark.o Lannister.o Targaryen.o FamiliaNoble.o Dothraki.o GuardiaReal.o
-	g++ main.o Stark.o Lannister.o Targaryen.o FamiliaNoble.o Dothraki.o GuardiaReal.o -o GOT
+	g++ main.o Stark.o Lannister.o Targaryen.o FamiliaNoble.o Dothraki.o GuardiaReal.o -o main
 
 main.o:	main.cpp Stark.h Lannister.h Targaryen.h FamiliaNoble.h Dothraki.h GuardiaReal.h
 	g++ -c Stark.cpp Lannister.cpp Targaryen.cpp FamiliaNoble.cpp Dothraki.cpp GuardiaReal.cpp

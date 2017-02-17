@@ -4,12 +4,14 @@
 #include <vector>
 #ifndef FAMILIANOBLE_H
 #define FAMILIANOBLE_H
+using namespace std;
+
 
 class FamiliaNoble{
 	private:
 		string nombre;
 		string simbolo;
-		srting lema;			
+		string lema;			
 		int cantPersonas;
 		int ataque;
 		int defensa;

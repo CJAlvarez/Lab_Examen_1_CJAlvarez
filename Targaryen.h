@@ -4,6 +4,7 @@
 #include <vector>
 #ifndef TARGARYEN_N
 #define TARGARYEN_H
+using namespace std;
 
 
 class Targaryen{
@@ -24,7 +25,7 @@ class Targaryen{
 		string getReina();
 		void setEmblema(string);
 		string getEmblema();
-		void setLema(string;
+		void setLema(string);
 		string getLema();
 		void setCantDragones(int);
 		int getCantDragones();
@@ -38,7 +39,3 @@ class Targaryen{
 };
 
 #endif
-~         
-~                                                                                                                                              
-~                                                                                                                                              
-~  

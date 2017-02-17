@@ -4,6 +4,7 @@
 #include <vector>
 #ifndef GUARDIAREAL_H
 #define GUARDIAREAL_H
+using namespace std;
 
 class GuardiaReal{
 	private:

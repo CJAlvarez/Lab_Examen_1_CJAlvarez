@@ -34,7 +34,7 @@ void FamiliaNoble :: setCantPersonas(int scant){
 	cantPersonas = scant;
 }
 int FamiliaNoble :: getCantPersonas(){
-	return scant;
+	return cantPersonas;
 }
 
 void FamiliaNoble :: setAtaque(int sataque){
