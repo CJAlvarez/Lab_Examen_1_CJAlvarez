@@ -10,7 +10,7 @@ class FamiliaNoble{
 		string nombre;
 		string simbolo;
 		srting lema;			
-		int canPersonas;
+		int cantPersonas;
 		int ataque;
 		int defensa;
 
@@ -20,7 +20,7 @@ class FamiliaNoble{
 		
 		// Accesores
 		void setNombre(string);
-		string setNombre();
+		string getNombre();
 		void setSimbolo(string);
 		string getSimbolo();
 		void setLema(string);
