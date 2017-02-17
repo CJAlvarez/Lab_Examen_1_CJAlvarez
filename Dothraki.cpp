@@ -28,22 +28,22 @@ void Dothraki :: setDefensa (int d){
 	defensa = d;
 }
 
-string Dothraki :: setNombre(){
+string Dothraki :: getNombre(){
    return nombre;
 }
-string Dothraki :: setJefeBarbaro(){
+string Dothraki :: getJefeBarbaro(){
    return jefeBarbaro;
 }
-string Dothraki :: setNombreCaballo(){
+string Dothraki :: getNombreCaballo(){
    return nombreCaballo;
 } 
-string Dothraki :: setColorCaballo(){
+string Dothraki :: getColorCaballo(){
    return colorCaballo;
 } 
-int Dothraki :: setAtaque(){
+int Dothraki :: getAtaque(){
 	return ataque;
 } 
-int Dothraki :: setDefensa (){
+int Dothraki :: getDefensa (){
    return defensa;
 }
 
