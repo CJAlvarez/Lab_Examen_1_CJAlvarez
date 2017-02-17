@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 #include "FamiliaNoble.h"
-using namespace std;
+//using namespace std;
 
 FamiliaNoble :: FamiliaNoble(){
 	cout << "Nueva Familia Noble" << endl;

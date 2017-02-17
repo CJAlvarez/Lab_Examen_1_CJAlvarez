@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 #include "GuardiaReal.h"
-using namespace std;
+//using namespace std;
 
 GuardiaReal :: GuardiaReal(){
 	cout << "Nueva Guardia Real" << endl;

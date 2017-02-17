@@ -2,15 +2,15 @@ main:	main.o Stark.o Lannister.o Targaryen.o FamiliaNoble.o Dothraki.o GuardiaRe
 	g++ main.o Stark.o Lannister.o Targaryen.o FamiliaNoble.o Dothraki.o GuardiaReal.o -o main
 
 main.o:	main.cpp Stark.h Lannister.h Targaryen.h FamiliaNoble.h Dothraki.h GuardiaReal.h
-	g++ -c Stark.cpp Lannister.cpp Targaryen.cpp FamiliaNoble.cpp Dothraki.cpp GuardiaReal.cpp
+	g++ -c main.cpp
 
-Stark.o: Stark.h Stark.cpp FamiliaNoble.h
+Stark.o: Stark.h Stark.cpp 
 	g++ -c Stark.cpp FamiliaNoble.cpp
 
-Lannister.o: Lannister.h Lannister.cpp GuardiaReal.h
+Lannister.o: Lannister.h Lannister.cpp 
 	g++ -c Lannister.cpp GuardiaReal.cpp
 
-Targaryen.o: Targaryen.h Targaryen.cpp Dothraki.h
+Targaryen.o: Targaryen.h Targaryen.cpp 
 	g++ -c Targaryen.cpp Dothraki.cpp
 
 FamiliaNoble.o: FamiliaNoble.h FamiliaNoble.cpp

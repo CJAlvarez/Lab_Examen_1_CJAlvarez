@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 #include "Dothraki.h"
-using namespace std;
+//using namespace std;
 
 Dothraki :: Dothraki (){
 	cout << "Nuevo Dothraki" << endl;

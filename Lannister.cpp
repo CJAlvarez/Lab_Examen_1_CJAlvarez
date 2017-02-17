@@ -4,8 +4,6 @@
 #include <vector>
 #include "Lannister.h"
 
-using namespace std;
-
 Lannister :: Lannister(){
 	cout << "Nuevo Lannister" << endl;
 }

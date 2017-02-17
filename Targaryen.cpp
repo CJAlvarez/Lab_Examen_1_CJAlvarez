@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 #include "Targaryen.h"
-using namespace std;
+
 
 Targaryen :: Targaryen() {
    cout << "Nuevo Targaryen" << endl;

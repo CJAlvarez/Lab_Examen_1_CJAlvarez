@@ -43,4 +43,4 @@ class Lannister{
 };
 
 #endif
-~         
+         

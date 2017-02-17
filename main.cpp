@@ -1,7 +1,7 @@
 // Main
 #include <iostream>
 #include <string>
-#include <vecto>
+#include <vector>
 
 int main(){
 	return 0;

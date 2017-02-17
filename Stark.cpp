@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 #include "Stark.h"
-using namespace std;
+//using namespace std;
 
 Stark :: Stark() {
 	cout << "Nuevo Stark" << endl;
@@ -38,7 +38,7 @@ string Stark :: getLema(){
 }
 
 void Stark :: setEjercitoFam(string sejercito){
-	ejercitoFam = ejercito;
+	ejercitoFam = sejercito;
 }
 string Stark :: getEjercitoFam(){
 	return ejercitoFam;
