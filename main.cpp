@@ -16,13 +16,13 @@ int main(){
 	int option;
 	
 	Stark* stark = new Stark();
-	bool s, l, t;
+	bool s= false, l= false, t= false;
 	int n, d, g;
 	Lannister* lannister = new Lannister();
 	Targaryen* targaryen = new Targaryen();
 
 	while(true){
-		cout << "\t*  Agregar *\n\n1.- Stark\n2.- Lannister\n3.- Targaryen\n\t* Otros *\n4.- Listar\n5.- Eliminar\n0.- Simulacion\n_ ";
+		cout << "\t*  Agregar *\n\n1.- Stark\n2.- Lannister\n3.- Targaryen\n\t* Otros *\n4.- Listar\n5.- Simular\n0.- Salir\n_ ";
 		cin >> option;
 	
 		switch(option){
@@ -207,10 +207,59 @@ int main(){
 	
 			// Listar
 			case 4:{
+				if (s == true){
 				cout << "\tSTARK" << endl;
-//				cout << stark -> get
+				cout << stark -> getJefe()<< endl;
+				cout << stark -> getCantLobos()<< endl;
+				cout << stark -> getEmblema()<< endl;
+				cout << stark -> getLema()<< endl;
+				cout << stark -> getGuerreroValioso()<< endl;
+				cout << stark -> getCantIntegrantes()<< endl;
+				cout << "\nFAMILIA NOBLE" << endl;
+				cout << stark -> getEjercitoFam(0) -> getNombre()<< endl;
+				cout << stark -> getEjercitoFam(0) -> getSimbolo()<< endl;
+				cout << stark -> getEjercitoFam(0) -> getLema()<< endl;
+				cout << stark -> getEjercitoFam(0) -> getCantPersonas()<< endl;
+				cout << stark -> getEjercitoFam(0) -> getAtaque()<< endl;
+				cout << stark -> getEjercitoFam(0) -> getDefensa()<< endl;
+				}
+				if(l == true){
+				cout << "\tLANNISTER" << endl;
+				cout << lannister -> getJefe()<< endl;
+			   cout << lannister -> getEmblema()<< endl;
+				cout << lannister -> getLema()<< endl;
+				cout << lannister -> getCantDinero()<< endl;	
+				cout << lannister -> getFuerzaMonatana()<< endl;
+     			cout << lannister -> getCantIntegrantes()<< endl;
+				cout << "\nGUARDIA REAL" << endl;
+				cout << lannister -> getEjercitoReal(0) -> getNombre()<< endl;
+				cout << lannister -> getEjercitoReal(0) -> getEdad()<< endl;
+				cout << lannister -> getEjercitoReal(0) -> getTipoSoldado()<< endl;
+				cout << lannister -> getEjercitoReal(0) -> getAtaque()<< endl;
+				cout << lannister -> getEjercitoReal(0) -> getDefensa()<< endl;
+				}
+				if(t == true){
+				cout << "\tTargaryen" << endl;
+				cout << targaryen -> getReina()<< endl;
+				cout << targaryen -> getEmblema()<< endl;
+				cout << targaryen -> getLema()<< endl;
+				cout << targaryen -> getCantDragones()<< endl;
+				cout << targaryen -> getCantBarcos()<< endl;
+				cout << "\nDothraki" << endl;
+				cout << targaryen -> getEjercitoDothraki(0) -> getNombre()<< endl;
+				cout << targaryen -> getEjercitoDothraki(0) -> getJefeBarbaro()<< endl;
+				cout << targaryen -> getEjercitoDothraki(0) -> getNombreCaballo()<< endl;
+				cout << targaryen -> getEjercitoDothraki(0) -> getAtaque()<< endl;
+				cout << targaryen -> getEjercitoDothraki(0) -> getDefensa()<< endl;
+				}
 				break;	
-			}		
+			}			
+		
+			// Simulacion
+			case 5:{
+			
+			break;	
+			}
 		}
 	}
 	return 0;
