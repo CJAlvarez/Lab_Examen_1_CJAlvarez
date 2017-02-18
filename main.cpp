@@ -22,7 +22,7 @@ int main(){
 	Targaryen* targaryen = new Targaryen();
 
 	while(true){
-		cout << "\t*  Agregar *\n\n1.- Stark\n2.- Lannister\n3.- Targaryen\n\t* Otros *\n4.- Listar\n5.- Simular\n0.- Salir\n_ ";
+		cout << "\t*  Agregar/Modificar *\n\n1.- Stark\n2.- Lannister\n3.- Targaryen\n\t* Otros *\n4.- Listar\n5.- Simular\n0.- Salir\n_ ";
 		cin >> option;
 	
 		switch(option){
