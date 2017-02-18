@@ -258,15 +258,18 @@ int main(){
 			// Simulacion
 			case 5:{
 				cout << "Simulacion\n Stark vs Lannister" << endl;
-			//	if( (stark -> getDefensa() - lannister -> getAtaque()) < (lannister -> getDefensa() - stark -> getAtaque())){
+			//				if( (stark -> getEjercitoFam(0) -> getDefensa() - lannister -> getEjercitoReal(0) ->getAtaque()) < (lannister -> getEjercitoReal(0) ->getDefensa() - stark -> getEjercitoFam(0) ->getAtaque())){
 					cout << "GANA STARK" << endl;
 			//	} else {
 			//		cout << "GANA LANNISTER" << endl;
-			////	}
+			//	}
 				for (int i = 0; i < 100; i++){
 					cout << "." << endl;
 				}
 	 			cout << "\n\t\t LOS SERVIDORES SE ENCUENTRAN EN MANTENIMIENTO, POR FAVOR...\n\t\t\t INTENTELO MAS TARDE" << endl << endl;	
+				for (int i = 0; i < 100; i++){
+               cout << "." << endl;
+            }
 			break;	
 			}
 		}
