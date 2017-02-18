@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "Dothraki.h"
 #ifndef TARGARYEN_N
 #define TARGARYEN_H
 using namespace std;
@@ -13,7 +14,7 @@ class Targaryen{
 		string emblema;
 		string lema;
 		int cantDragones;
-		string ejercitoDothraki;
+		vector <Dothraki*> ejercitoDothraki;
 		int cantBarcos;
 
    public:
@@ -29,8 +30,8 @@ class Targaryen{
 		string getLema();
 		void setCantDragones(int);
 		int getCantDragones();
-		void setEjercitoDothraki(string);
-		string getEjercitoDothraki();
+		void setEjercitoDothraki(Dothraki*);
+		Dothraki* getEjercitoDothraki(int);
 		void setCantBarcos(int);
 		int getCantBarcos();
 		

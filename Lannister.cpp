@@ -5,7 +5,7 @@
 #include "Lannister.h"
 
 Lannister :: Lannister(){
-	cout << "Nuevo Lannister" << endl;
+//	cout << "Nuevo Lannister" << endl;
 }
 
 void Lannister :: setJefe(string sJefe) {
@@ -29,11 +29,11 @@ string Lannister :: getLema(){
    return lema;
 }
 
-void Lannister :: setEjercitoReal(string sejercito){
-   ejercitoReal = sejercito;
+void Lannister :: setEjercitoReal(GuardiaReal* guardia){
+   ejercitoReal.push_back(guardia);
 }
-string Lannister :: getEjercitoReal(){
-   return ejercitoReal;
+GuardiaReal* Lannister :: getEjercitoReal(int i){
+   return ejercitoReal[i];
 }
 
 void Lannister :: setCantDinero(int scant){

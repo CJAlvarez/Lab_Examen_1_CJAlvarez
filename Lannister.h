@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "GuardiaReal.h"
 #ifndef LANNISTER_N
 #define LANNISTER_H
 using namespace std;
@@ -12,7 +13,7 @@ class Lannister{
 		string jefe;
 		string emblema;
 		string lema;
-		string ejercitoReal;
+		vector <GuardiaReal*> ejercitoReal;
 		int cantDinero;
 		double fuerzaMontana;
 		int cantIntegrantes;
@@ -28,8 +29,8 @@ class Lannister{
 		string getEmblema();
 		void setLema(string);
 		string getLema();
-		void setEjercitoReal(string);
-		string getEjercitoReal();
+		void setEjercitoReal(GuardiaReal*);
+		GuardiaReal* getEjercitoReal(int);
 		void setCantDinero(int);	
 		int getCantDinero();
 		void setFuerzaMontana(double);

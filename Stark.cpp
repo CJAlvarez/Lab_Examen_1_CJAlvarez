@@ -6,7 +6,7 @@
 //using namespace std;
 
 Stark :: Stark() {
-	cout << "Nuevo Stark" << endl;
+//	cout << "Nuevo Stark" << endl;
 }
 
 void Stark :: setJefe(string sJefe) {
@@ -37,11 +37,11 @@ string Stark :: getLema(){
 	return lema;
 }
 
-void Stark :: setEjercitoFam(string sejercito){
-	ejercitoFam = sejercito;
+void Stark :: setEjercitoFam(FamiliaNoble* fam){
+	ejercitoFam.push_back(fam);
 }
-string Stark :: getEjercitoFam(){
-	return ejercitoFam;
+FamiliaNoble* Stark :: getEjercitoFam(int posicion){
+	return ejercitoFam[posicion];
 }
 
 void Stark :: setGuerreroValioso(string sGuerrero){

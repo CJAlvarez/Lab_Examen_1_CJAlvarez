@@ -5,7 +5,7 @@
 
 
 Targaryen :: Targaryen() {
-   cout << "Nuevo Targaryen" << endl;
+   //cout << "Nuevo Targaryen" << endl;
 }
 
 void Targaryen :: setReina(string sreina) {
@@ -36,11 +36,11 @@ int Targaryen :: getCantDragones() {
    return cantDragones;
 }
 
-void Targaryen :: setEjercitoDothraki(string sejercito){
-   ejercitoDothraki = sejercito;
+void Targaryen :: setEjercitoDothraki(Dothraki* dot){
+   ejercitoDothraki.push_back(dot);
 }
-string Targaryen :: getEjercitoDothraki(){
-   return ejercitoDothraki;
+Dothraki* Targaryen :: getEjercitoDothraki(int i){
+   return ejercitoDothraki[i];
 }
 
 void Targaryen :: setCantBarcos(int sCant){

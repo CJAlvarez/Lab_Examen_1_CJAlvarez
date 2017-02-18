@@ -1,4 +1,5 @@
 // Stark.h
+#include "FamiliaNoble.h"
 #include <iostream>
 #include <string>
 #include <vector>
@@ -13,7 +14,7 @@ class Stark{
 		int cantLobos;
 		string emblema;
 		string lema;
-		string ejercitoFam;
+		vector<FamiliaNoble*> ejercitoFam;
 		string guerreroValioso;
 		int cantIntegrantes; 
 
@@ -30,8 +31,8 @@ class Stark{
 		string getEmblema();
 		void setLema(string);
 		string getLema();
-		void setEjercitoFam(string);
-		string getEjercitoFam();
+		void setEjercitoFam(FamiliaNoble*);
+		FamiliaNoble* getEjercitoFam(int);
 		void setGuerreroValioso(string);
 		string getGuerreroValioso();
 		void setCantIntegrantes(int);
